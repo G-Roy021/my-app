@@ -30,7 +30,7 @@ function App(){
       document.body.style.backgroundColor ="#121212"
       document.body.style.color ="white"
       showAlert("dark mode enabled", "success")
-      document.title='React App | Home Dark Mode'
+      document.title='React App | Home Dark*'
     }
      else {
       setMode('light')
