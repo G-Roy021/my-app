@@ -39,7 +39,7 @@ function App(){
       document.body.style.backgroundColor ="white"
       document.body.style.color ="#121212"
       showAlert("light mode enabled", "success")
-      document.title='React App | Home'
+      document.title='React App | Home light'
     }
     }
   return (
