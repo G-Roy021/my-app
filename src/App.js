@@ -24,7 +24,7 @@ function App(){
     }, 2000);
   }
  const enableMode = ()=> {
-    if(mode == 'light'){
+    if(mode === 'light'){
       setMode('dark')
       enMode("Dark Mode")
       document.body.style.backgroundColor ="#121212"
@@ -48,12 +48,13 @@ function App(){
     
 
   {/* <Navbar/> */}
+   
   <Navbar logo="Test.App" navlink1="Home" navlink2="Projects" navlink3="About" navlink4="Contact"  mode={mode} enableMode={enableMode} activeMode={activeMode}/>
    <Alert alert={alert}/>
    <div className="container">
-   <TextForm textarea="Text Field"/>
    <About/>
    </div>
+   <TextForm textarea="Text Field"/>
    
 
     </>
